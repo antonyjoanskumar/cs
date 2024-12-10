@@ -1,0 +1,119 @@
+/* Add spacing between the logo and navbar text */
+.navbar-brand img {
+    margin-right: 10px;
+}
+
+/* Center the bishop's image with a stylish border */
+img.rounded-circle {
+    box-shadow: 0 4px 10px rgba(0, 0, 0, 0.2);
+}
+
+/* Add a hover effect to the Jesus photo */
+.navbar img {
+    transition: transform 0.3s ease-in-out;
+}
+
+.navbar img:hover {
+    transform: scale(1.1);
+}
+/* Ensure the footer stays at the bottom */
+html, body {
+    height: 100%;
+}
+
+body {
+    display: flex;
+    flex-direction: column;
+}
+
+footer {
+    background-color: #007bff; /* Same blue as the header */
+    color: white;
+    text-align: center;
+    padding: 10px 0;
+    border-top: 3px solid #0056b3; /* Adds a subtle darker blue strip on top */
+    margin-top: auto;
+}
+/* Circular Logo */
+.circular-logo {
+    height: 50px;
+    width: 50px;
+    object-fit: cover; /* Ensures proper image fit */
+    border-radius: 50%; /* Makes the logo circular */
+    border: 2px solid #ffffff; /* Optional: Add a white border */
+    box-shadow: 0 4px 8px rgba(0, 0, 0, 0.2); /* Optional: Add a subtle shadow */
+}
+
+/* Style for about page headings */
+h1 {
+    font-family: 'Georgia', serif;
+    font-size: 2.5rem;
+    text-transform: uppercase;
+    letter-spacing: 2px;
+}
+
+/* Paragraph styling */
+.text-secondary.text-justify {
+    line-height: 1.8;
+    margin-bottom: 20px;
+}
+
+/* Add some padding to the content */
+.my-4 {
+    padding: 20px;
+    background: #f8f9fa; /* Light gray background for better readability */
+    border-radius: 10px;
+    box-shadow: 0 4px 10px rgba(0, 0, 0, 0.1); /* Subtle shadow */
+}
+/* Style for uniform images */
+.governing-body-image {
+    width: 150px;
+    height: 150px;
+    object-fit: cover;  /* Ensures the images fit well within the given dimensions */
+    margin-bottom: 10px; /* Adds space between image and text */
+}
+
+/* Optional: Add margin to the container if needed */
+.container.my-4 {
+    margin-top: 20px;
+}
+.list-group-item:hover {
+    background-color: #f0f0f0;
+}
+
+
+    /* Custom style for navbar height increase */
+    .navbar {
+        padding-top: 2.5rem; /* Increase top padding */
+        padding-bottom: 2.5rem; /* Increase bottom padding */
+    }
+
+    .navbar-expand-lg {
+        height: 10vh; /* Set height as a percentage of the viewport height */
+    }
+
+    /* Increase the size of the left logo */
+    .navbar .circular-logo {
+        height: 70px; /* Adjust height as needed */
+        width: auto; /* Maintain aspect ratio */
+    }
+
+    /* Increase the size of the right Jesus photo */
+    .navbar img {
+        height: 80px; /* Adjust height as needed */
+        width: auto; /* Maintain aspect ratio */
+    }
+
+    /* Reduce slogan size and spacing */
+    .navbar .slogan {
+        font-size: 0.8rem; /* Adjust font size to make it smaller */
+        line-height: 1; /* Reduce line spacing */
+        margin-top: -10px; /* Pull slogan closer to the heading */
+    }
+
+    /* Light blue background for the page */
+    body {
+        background-color: #e3f2fd; /* Light blue shade */
+    }
+
+
